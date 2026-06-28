@@ -179,15 +179,15 @@ if __name__ == "__main__":
         csv_file_path, 
         x_axis='pageSize', 
         save_dir=output_directory,
-        filter_alfa=[0.6,0.75],
-        suf="060_075"
+        filter_alfa=[0.6,0.75,0.8],
+        suf="060_075_080"
     )
     generate_all_graphs(
         csv_file_path, 
         x_axis='pageSize', 
         save_dir=output_directory,
-        filter_alfa=[0.8,0.9],
-        suf="080_090"
+        filter_alfa=[0.9],
+        suf="090"
     )
     generate_all_graphs(
         csv_file_path, 

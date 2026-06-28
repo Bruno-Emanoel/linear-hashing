@@ -202,7 +202,7 @@ public:
             m_pages.pop_back();
         }
     }
-    private:
+private:
 
     /* Updates the quantities of pages after an insertion */
     void checkUpdate(size_t index) {
