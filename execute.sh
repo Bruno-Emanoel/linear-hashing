@@ -17,4 +17,5 @@ do
     done
 done
 
-rm -r ./bin
+rm -r ./bin/gen
+rm -r ./bin/hashing
